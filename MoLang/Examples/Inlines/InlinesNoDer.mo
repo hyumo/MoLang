@@ -1,5 +1,5 @@
-within MoLang.Examples;
-model Inlines
+within MoLang.Examples.Inlines;
+model InlinesNoDer
   extends Modelica.Icons.Example;
   Blocks.Inlines.SmoothAbs_a smoothAbs_a
     annotation (Placement(transformation(extent={{-10,20},{10,40}})));
@@ -36,4 +36,4 @@ equation
 <p>smoothAbsx_0c_y = (PushModelContext(1,&quot;MoLang.Functions.Inlines.SmoothAbs_c(smoothAbs_a.u, 1E-10)&quot;)</p>
 <p>  sqrtGuarded(1E-10+sqr(smoothAbsx_0a_u),&quot;1E-10+smoothAbs_a.u^2&quot;));</p>
 </html>"));
-end Inlines;
+end InlinesNoDer;

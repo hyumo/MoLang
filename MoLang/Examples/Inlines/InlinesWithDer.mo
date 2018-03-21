@@ -1,4 +1,4 @@
-within MoLang.Examples;
+within MoLang.Examples.Inlines;
 model InlinesWithDer
   extends Modelica.Icons.Example;
   Blocks.Inlines.SmoothAbs_a smoothAbs_a

@@ -4,8 +4,8 @@ function SmoothAbs_d
   input Real x;
   input Real alpha=1e-10;
   output Real y;
-  annotation (LateInline=true);
 algorithm
   y := sqrt(x^2 + alpha);
-  annotation (derivative=SmoothAbs_d_der);
+  annotation (LateInline=true,
+              derivative=SmoothAbs_d_der);
 end SmoothAbs_d;
